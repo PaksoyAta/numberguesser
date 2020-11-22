@@ -27,5 +27,5 @@ const updateScore = (winner) =>{
 }
 
 const advanceRound = () =>{
-    currentRoundNumber +=1
+    currentRoundNumber +=2
 }
