@@ -64,7 +64,7 @@ nextRoundButton.addEventListener('click', () => {
   // Reset the guess input box and the target number display:
   targetNumberDisplay.innerText = '?';
   guessButton.innerText = 'Make a Guess';
-  humanGuessInput.value = 0;
+  humanGuessInput.value = 1;
   computerGuessDisplay.innerText = '?';
   computerWinsDisplay.innerText = '';
   guessButton.classList.remove('winning-text');
